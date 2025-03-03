@@ -14,7 +14,13 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If you encounter an "Unexpected token '?'" error you might have to change your nvm version. On linux this can be done using the following commands:
+```bash
+nvm install 18
+nvm use 18
+```
+
+Open [http://localhost:3000/maasec.com](http://localhost:3000/maasec.com) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
