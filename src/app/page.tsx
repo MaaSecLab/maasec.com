@@ -135,7 +135,7 @@ export default function Home() {
              About Us
           </h2>
           <div className="max-w-3xl mx-auto text-center">
-            <p className="text-lg text-black mb-6 font-archivo" data-flag="maasec{some stuff here}">
+            <p className="text-lg text-black mb-6 font-archivo">
               We are a group of students and professionals united under the ACM banner, 
               dedicated to fostering a community of learners and innovators. 
               Our mission is to promote hands-on experience, collaborative learning, 
