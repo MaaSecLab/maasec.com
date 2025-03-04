@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { /*useState, useEffect*/} from "react";
 import { Laptop, Lightbulb, Book, Monitor, Terminal,Users, Github} from "lucide-react";
-import "./globals.css"
+//import "./globals.css"
 
 export default function Home() {
   //const [_isMenuOpen, _setIsMenuOpen] = useState(false);
@@ -129,7 +129,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Section */}
+      {/* About Section 
+        <div hidden>You found me! I&apos;ll give you a hint now: https://ibb.co/gbMLNyvp</div>
+      */}
       <section id="about" className="py-20 relative -mt-64">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center font-archivo text-black-400">
@@ -144,7 +146,6 @@ export default function Home() {
               ever-evolving world of technology.
             </p>
           </div>
-          <div hidden>You found me! I&apos;ll give you a hint now: https://ibb.co/gbMLNyvp</div>
         </div>
       </section>
 
