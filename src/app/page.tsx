@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { /*useState, useEffect*/} from "react";
 import { Laptop, Lightbulb, Book, Monitor, Terminal,Users, Github} from "lucide-react";
+import "./globals.css"
 
 export default function Home() {
   //const [_isMenuOpen, _setIsMenuOpen] = useState(false);
@@ -143,6 +144,7 @@ export default function Home() {
               ever-evolving world of technology.
             </p>
           </div>
+          <div hidden>You found me! I&apos;ll give you a hint now: https://ibb.co/gbMLNyvp</div>
         </div>
       </section>
 
