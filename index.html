@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACM Student Chapter - MAASEC</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+  <!--<link rel="stylesheet" href="styles.css"> <!-- Include your custom styles if needed -->
+</head>
+<body class="font-mono antialiased">
+
+  <!-- Header -->
+  <header class="fixed w-full z-50 transition-all duration-300">
+    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center gap-2">
+        <img src="./img/acm.svg" alt="ACM logo" width="64" height="64">
+        <span class="font-archivo font-bold text-xl text-black">at Maastricht University</span>
+      </div>
+      
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex gap-8 font-archivo">
+        <a href="#about" class="hover:text-black transition-colors border-b-2">About</a>
+        <a href="#operations" class="hover:text-black transition-colors border-b-2">Operations</a>
+        <a href="#contact" class="hover:text-black transition-colors border-b-2">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center relative overflow-hidden">
+    <div class="container mx-auto px-4 py-20 text-center relative -mt-32">
+      <h1 class="text-4xl md:text-6xl font-bold mb-6 font-archivo">
+        <span class="text-black block">ACM Student Chapter</span>
+        <span class="text-black block">MAASEC</span>
+        <span class="animate-pulse"></span>
+      </h1>
+      <p class="text-xl md:text-2xl text-black mb-8 font-archivo">
+        Empowering students through technology and cybersecurity education
+      </p>
+      <div class="flex gap-4 justify-center">
+        <a href="#contact" class="group bg-white/100 border border-gray-700 px-8 py-3 rounded hover:border-black hover:text-black transition-all duration-300 font-archivo">
+          Join Operation
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 relative -mt-64">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center font-archivo text-black-400">About Us</h2>
+      <div class="max-w-3xl mx-auto text-center">
+        <p class="text-lg text-black mb-6 font-archivo">
+          We are a group of students and professionals united under the ACM banner,
+          dedicated to fostering a community of learners and innovators.
+          Our mission is to promote hands-on experience, collaborative learning,
+          and skill development across various fields, empowering everyone to grow and thrive in the
+          ever-evolving world of technology.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Operations Section -->
+  <section id="operations" class="py-20 relative bg-white/100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-12 text-center font-archivo text-black">Operations</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white/100 p-6 rounded-lg border border-black/20 hover:border-black-400 transition-all duration-300 text-center group">
+          <img src="./img/terminal.svg" alt="Terminal Icon" class="w-12 h-12 mb-4 text-green-600">
+          <h3 class="text-xl font-semibold mb-4 font-archivo text-black-400">Competitive Programming</h3>
+          <p class="text-black">Participate in algorithmic problem-solving contests and hackathons</p>
+        </div>
+        <div class="bg-white/100 p-6 rounded-lg border border-black/20 hover:border-black-400 transition-all duration-300 text-center group">
+          <img src="./img/laptop.svg" alt="Laptop Icon" class="w-12 h-12 mb-4 text-blue-400">
+          <h3 class="text-xl font-semibold mb-4 font-archivo text-black-400">Project Development</h3>
+          <p class="text-black">Collaborate on open-source software projects and build innovative solutions</p>
+        </div>
+        <div class="bg-white/100 p-6 rounded-lg border border-black/20 hover:border-black-400 transition-all duration-300 text-center group">
+          <img src="img/users.svg" alt="Users Icon" class="w-12 h-12 mb-4 text-purple-400">
+          <h3 class="text-xl font-semibold mb-4 font-archivo text-black-400">Tech Talks & Seminars</h3>
+          <p class="text-black">Attend guest lectures and seminars to explore emerging tech trends</p>
+        </div>
+        <div class="bg-white/100 p-6 rounded-lg border border-black/20 hover:border-black-400 transition-all duration-300 text-center group">
+          <img src="img/book.svg" alt="Book Icon" class="w-12 h-12 mb-4 text-purple-400">
+          <h3 class="text-xl font-semibold mb-4 font-archivo text-black-400">Study Groups</h3>
+          <p class="text-black">Join study sessions to enhance your understanding of computer science topics</p>
+        </div>
+        <div class="bg-white/100 p-6 rounded-lg border border-black/20 hover:border-black-400 transition-all duration-300 text-center group">
+          <img src="img/monitor.svg" alt="Monitor Icon" class="w-12 h-12 mb-4 text-purple-400">
+          <h3 class="text-xl font-semibold mb-4 font-archivo text-black-400">Hackathons</h3>
+          <p class="text-black">Compete in team-based hackathons to develop creative tech solutions</p>
+        </div>
+        <div class="bg-white/100 p-6 rounded-lg border border-black/20 hover:border-black-400 transition-all duration-300 text-center group">
+          <img src="img/lightbulb.svg" alt="Lightbulb Icon" class="w-12 h-12 mb-4 text-purple-400">
+          <h3 class="text-xl font-semibold mb-4 font-archivo text-black-400">Innovation Challenges</h3>
+          <p class="text-black">Collaborate with peers to brainstorm and develop creative solutions to various challenges</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 relative bg-white/100">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-8 font-archivo text-black">Join The Operation</h2>
+      <p class="text-xl text-black mb-8 font-archivo">
+        Ready to explore the frontiers of technology and innovation?
+      </p>
+
+      <a href="https://github.com/MaaSecLab" class="text-white hover:bg-gray-200 transition-colors">
+        <img src="./img/github.svg" class="w-10 h-10 inline text-black">
+      </a>
+      <a href="https://discord.com/invite/ghpWe7wawV" class="text-white hover:bg-gray-200 transition-colors">
+        <img src="./img/discord.svg" class="w-10 h-10 inline">
+      </a>
+      <a href="https://ctftime.org/team/365940" class="text-white hover:bg-gray-200 transition-colors">
+        <img src="./img/ctftime.png" class="w-10 h-10 inline">
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black py-12 border-t border-white/20 ">
+    <div class="container mx-auto px-4">
+      <div class="grid md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-xl font-semibold mb-4 font-archivo text-white">ACM Student Chapter of Maastricht University</h3>
+          <p class="text-white">Sharing our passion of computation.</p>
+          <p class="mt-4 text-white">
+            <strong>Contact us:</strong> <a href="mailto:acm@maasec.com" class="text-blue-400">acm@maasec.com</a>
+          </p>
+        </div>
+      </div>
+      <div class="mt-8 pt-8 border-t border-white/20 text-center">
+        <p class="text-white">© 2025 ACM Student Chapter of Maastricht University</p>
+        <p class="mt-2 text-gray-400 font-archivo">>// Made with ❤️ by irdi and dimitri @ maasec</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
